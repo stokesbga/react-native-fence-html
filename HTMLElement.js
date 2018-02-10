@@ -7,18 +7,7 @@ class HTMLElement extends React.Component {
   /* ****************************************************************************/
   // Class
   /* ****************************************************************************/
-
-  static propTypes = {
-    tagName: React.PropTypes.string.isRequired,
-    renderers: React.PropTypes.object.isRequired,
-    groupInfo: React.PropTypes.object,
-    parentTagName: React.PropTypes.string,
-    htmlStyles: React.PropTypes.object,
-    htmlAttibs: React.PropTypes.object,
-    onLinkPress: React.PropTypes.func,
-    children: React.PropTypes.node,
-    parentIsText: React.PropTypes.bool.isRequired
-  }
+  
 
   /* ****************************************************************************/
   // Data Lifecycle
