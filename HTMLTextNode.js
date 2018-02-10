@@ -26,10 +26,6 @@ class HTMLTextNode extends React.Component {
   // Class
   /* ****************************************************************************/
 
-  static propTypes = {
-    children: React.PropTypes.string.isRequired
-  }
-
   /**
   * Formats text the same way a browser would be removing whitespace
   * @param str: the string to remove chars from
