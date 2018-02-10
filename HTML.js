@@ -12,13 +12,6 @@ class HTML extends React.Component {
   // Class
   /* ****************************************************************************/
 
-  static propTypes = {
-    html: React.PropTypes.string.isRequired,
-    htmlStyles: React.PropTypes.object,
-    onLinkPress: React.PropTypes.func,
-    renderers: React.PropTypes.object.isRequired
-  }
-
   static defaultProps = {
     renderers: HTMLRenderers
   }
